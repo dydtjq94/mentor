@@ -1,0 +1,100 @@
+.toring {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.toring .toring__logo {
+  color: #0123b4;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.mentor__list {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.mentor {
+  width: 100%;
+  display: inline-block;
+  padding: 30px 0;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo .logo__img {
+  width: 30%;
+  height: 30%;
+}
+
+.mentor__detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.uni {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.oneWord {
+  width: 80%;
+  white-space: normal;
+  line-height: 45px;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0;
+  padding: 30px 0;
+  color: rgb(48, 48, 48);
+  border-top: 1px solid #0123b4;
+  border-bottom: 1px solid #0123b4;
+}
+
+.left {
+  display: flex;
+  width: 80%;
+  justify-items: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.left .left__menu {
+  width: 30%;
+  font-size: 30px;
+  color: #49589c;
+
+  margin: 10px 0;
+}
+
+.record__content {
+  width: 80%;
+}
+
+.record__menu {
+  font-size: 30px;
+
+  color: #49589c;
+  margin: 10px 0;
+}
+
+.record {
+  width: 100%;
+  margin: 10px 0;
+  white-space: normal;
+  line-height: 45px;
+  font-size: 30px;
+}
