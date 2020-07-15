@@ -1,5 +1,5 @@
 .toring {
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 5px;
   padding-left: 20px;
 }
@@ -7,7 +7,7 @@
 .toring .toring__logo {
   color: #0123b4;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .mentor__list {
@@ -49,13 +49,13 @@
 }
 
 .name {
-  font-size: 40px;
+  font-size: 30px;
   margin: 10px 0;
   font-weight: 700;
 }
 
 .uni {
-  font-size: 40px;
+  font-size: 30px;
   margin: 10px 0;
 }
 
@@ -63,7 +63,7 @@
   width: 80%;
   white-space: normal;
   line-height: 45px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 30px 0;
   padding: 30px 0;
@@ -77,12 +77,12 @@
   width: 80%;
   justify-items: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .left .left__menu {
   width: 30%;
-  font-size: 30px;
+  font-size: 20px;
   color: #49589c;
 
   margin: 10px 0;
@@ -93,7 +93,7 @@
 }
 
 .record__menu {
-  font-size: 30px;
+  font-size: 20px;
 
   color: #49589c;
   margin: 10px 0;
@@ -104,5 +104,5 @@
   margin: 10px 0;
   white-space: normal;
   line-height: 45px;
-  font-size: 30px;
+  font-size: 20px;
 }
