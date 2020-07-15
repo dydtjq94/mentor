@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Mentor</title>
+  </head>
+  <body>
+    <input type="file" id="excelFile" onchange="excelExport(event)" />
+  </body>
+  <!-- <script src="./js/mentor.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.3/xlsx.full.min.js"></script>
+  <script>
+    function excelExport(event) {
+      var input = event.target;
+      var reader = new FileReader();
+      reader.onload = function () {
+        var fileData = reader.result;
+        var wb = XLSX.read(fileData, { type: "binary" });
+        wb.SheetNames.forEach(function (sheetName) {
+          var rowObj = XLSX.utils.sheet_to_json(wb.Sheets[sheetName]);
+          console.log(JSON.stringify(rowObj));
+        });
+      };
+      reader.readAsBinaryString(input.files[0]);
+    }
+  </script>
+</html>
